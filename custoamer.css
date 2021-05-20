@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  
+    background-color: #F8874F;
+}
+
+
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+     font-family: 'Mixed';
+    font-size: 1.5rem;
+    color:#30415B!important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #30415B!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+.table-light{
+    background-color: yellow!important;
+}
