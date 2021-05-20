@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer details</title>
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+     <link rel="stylesheet" href="assets/css/customer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">ZION FINANCIAL Inc.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home </a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+    
+
+    <br><br>
+    <center>
+    <h2><i>CUSTOMER DETAILS</i></h2>
+</center>
+    <br><br>
+   
+
+    <!-- table  -->
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr class="table-danger">
+                        <th scope="col">Sl. No.</th>
+                        <th scope="col">Account No.</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Mail ID</th>
+                        <th scope="col">Balance</th>
+                        <th scope="col">Account type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-light">
+                        <td scope="row">1</td>
+                          <td>111</td>
+                        <td>Sai swetha B S</td>
+                        <td>saiswethabs@gmail.com</td>
+                        <td>
+                            <p id="saiswethabsBankBalance">8234</p>
+                        </td>
+                        <td>saving</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">2</td>
+                          <td>112</td>
+                        <td>Cody Martin</td>
+                        <td>codymartin@gmail.com</td>
+                        <td>
+                            <p id="codymartinBankBalance">45000</p>
+                        </td>
+                        <td>current</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">3</td>
+                          <td>113</td>
+                        <td>Chad Masters</td>
+                        <td>chadmasters@gmail.com</td>
+                        <td>
+                            <p id="chadmastersBankBalance">829</p>
+                        </td>
+                        <td>saving</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">4</td>
+                          <td>114</td>
+                        <td>Jessica Conte</td>
+                        <td>jessconte@gmail.com</td>
+                        <td>
+                            <p id="jessconteBankBalance">3470</p>
+                        </td>
+                        <td>current</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">5</td>
+                          <td>115</td>
+                        <td>Zac Martin</td>
+                        <td>zacmartin@gmail.com</td>
+                        <td>
+                            <p id="zacmartinBankBalance">5781</p>
+                        </td>
+                        <td>student</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">6</td>
+                          <td>116</td>
+                        <td>Hannah Williomson</td>
+                        <td>williamson@gmail.com</td>
+                        <td>
+                            <p id="williamsonBankBalance">34679</p>
+                        </td>
+                        <td>student</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>7</td>
+                          <td>117</td>
+                        <td>Gabriel Conte</td>
+                        <td>gabeconte@gmail.com</td>
+                        <td>
+                            <p id="gabeconteBankBalance">7742</p>
+                        </td>
+                        <td>saving</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">8</td>
+                          <td>118</td>
+                        <td>Tori Masters</td>
+                        <td>torimasters@gmail.com</td>
+                        <td>
+                            <p id="torimastersBankBalance">624</p>
+                        </td>
+                        <td>current</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">9</td>
+                          <td>119</td>
+                        <td>Niall Horan</td>
+                        <td>horan_n@gmail.com</td>
+                        <td>
+                            <p id="horan_nBankBalance">8500</p>
+                        </td>
+                        <td>current</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td scope="row">10</td>
+                          <td>110</td>
+                        <td>Aliyah Bruno</td>
+                        <td>bruno@gmail.com</td>
+                        <td>
+                            <p id="brunoBankBalance">5103</p>
+                        </td>
+                        <td>saving</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+   <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+</body>
+</html>
