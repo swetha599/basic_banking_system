@@ -1,0 +1,109 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8874F;
+    
+}
+
+
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+    font-family: 'Mixed';
+    font-size: 1.5rem;
+    color: #30415B!important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #30415B!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+
+.hero-content{
+    height: 100vh;
+    background-color: #355070;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius:45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 30vh;
+    width: 100%;
+    
+}
+.handimg{
+    height: 25vh;
+    width: 100%;
+    float: right;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 150%;
+    background-color: #fff;
+    color: #039be5!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #bfdff0;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 22rem;
+    border-bottom-right-radius: 22rem;
+    border-bottom-left-radius: 22rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+
+}
